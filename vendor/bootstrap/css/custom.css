@@ -4,16 +4,21 @@
 }
 
 .landing-image {
-	display: table-cell; width: 40%;
+	display: table-cell; width: 50%;
 }
 
 .landing-text {
-	display: table-cell; width: 40%;
+	display: table-cell; width: 50%;
 }
 
 .landing-content {
-		width: 30%;
+		border-radius: 50%;
+		width: 40%;
 	}
+
+a {
+	color: #0000CD;
+}
 
 @media screen and (max-width: 500px) {
     .table, .table-row {
@@ -29,14 +34,15 @@
     }
 
     .landing-image {
-		display: table-cell; width: 40%;
+		display: table-cell; width: 50%;
 	}
 
 	.landing-text {
-		display: table-cell; width: 40%;
+		display: table-cell; width: 50%;
 	}
 
 	.landing-content {
+		border-radius: 50%;
 		width: 50%;
 	}
 }
