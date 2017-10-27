@@ -11,6 +11,10 @@
 	display: table-cell; width: 40%;
 }
 
+.landing-content {
+		width: 30%;
+	}
+
 @media screen and (max-width: 480px) {
     .table, .table-row {
         display: block;
