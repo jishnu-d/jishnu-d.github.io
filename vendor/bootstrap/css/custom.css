@@ -11,7 +11,7 @@
 	display: table-cell; width: 40%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .table, .table-row {
         display: block;
     }
@@ -25,10 +25,14 @@
     }
 
     .landing-image {
-	display: table-cell; width: 50%;
+		display: table-cell; width: 60%;
 	}
 
 	.landing-text {
-	display: table-cell; width: 40%;
+		display: table-cell; width: 40%;
+	}
+
+	.landing-content {
+		width: 80%;
 	}
 }
