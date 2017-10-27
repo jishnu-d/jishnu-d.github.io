@@ -25,7 +25,7 @@
     }
 
     .landing-image {
-		display: table-cell; width: 60%;
+		display: table-cell; width: 40%;
 	}
 
 	.landing-text {
@@ -33,6 +33,6 @@
 	}
 
 	.landing-content {
-		width: 80%;
+		width: 70%;
 	}
 }
