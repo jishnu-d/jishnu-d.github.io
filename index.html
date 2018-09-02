@@ -33,14 +33,18 @@
           <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="files/cv.pdf" target="_blank">CV</a>
-            </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item js-scroll-trigger" href="#instabp">InstaBP</a>
+                <a class="dropdown-item js-scroll-trigger" href="#alertness">Alertness Indicator</a>
+                <a class="dropdown-item js-scroll-trigger" href="#btp">Distributed Optimization</a>
+                <a class="dropdown-item js-scroll-trigger" href="#samsung">HR Estimation</a>
+                <a class="dropdown-item js-scroll-trigger" href="#iisc">Nanopropeller synchronization</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -49,37 +53,32 @@
 
     <header class="bg-primary">
       <div class="container text-center">
-          <table style="display: table; width: 80%">
+          <table style="display: table; width: 90%">
               <tr>
-              <td class="landing-image" align="center">
+              <td class="landing-image" align="center" style="width: 50%">
               <p><img src="files/photo.jpg" alt="My picture" class="landing-content"></p>
               </td>
-              <td class="landing-text" align="center">
+              <td class="landing-text" align="center" style="width: 50%">
               <h1>Hello! I'm Jishnu Dey</h1>
-              <p class="lead">Welcome to my Website!</p>  
+              <p class="lead">Welcome to my website!</p>  
               </td>
               </tr>
           </table>
       </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="bg-cream">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About Me</h2>
+            <p>I am a Graduate student in Computer Science at the <a href="https://cs.illinois.edu/" target="_blank"><b>University of Illinois at Urbana-Champaign</b></a>, pursuing MS with thesis (Expected - May 2020). My advisor is <a href="http://czhai.cs.illinois.edu/" target="_blank"><b>Prof. ChengXiang Zhai</b></a>. Prior to this, I was working as a Senior Software Engineer at <a href="https://research.samsung.com/sri-b" target="_blank"><b>Samsung R&amp;D Institute India - Bangalore</b></a> after graduating from <a href="http://www.iitkgp.ac.in/" target="_blank"><b>IIT Kharagpur, India</b></a> in 2016.</p>
             <br>
             <br>
-            <h4>Current</h4>
-            <p>I'm a Software Engineer at Samsung R&amp;D Institute India - Bangalore. I joined in June 2016, and I work in the health and fitness research team of the Advanced Technology Lab. I'm involved with non-invasive monitoring of everyday activities and vital paramters for health tracking of an individual. My work involves working with sensors which are intergated into wearables/smartphones, or can be integrated in the future.</p>
+            <p> I'm interested in machine learning, deep learning, data mining and information retrieval and their applications to the various domains including healthcare and finance. I'm proficient in Python, R, MATLAB, C, C++, and have working knowledge of Java and Android development. I am always interested in learning new languages and technologies.</p>
             <br>
             <br>
-            <h4>Education</h4>
-            <p>Prior to joining Samsung, I finished my B.Tech from Indian Institute of Technology Kharagpur, majoring in Electronics and Electrical Communication Engineering. </p>
-            <br>
-            <br>
-            <p> I'm interested in machine learning, and its applications to the biomedical domain. I regularly work with Python and Matlab, and have some proficiency in R. Also, I have significant programming experience in C/C++. I have some experience in Java through Android app development. I always try to keep learning new stuff.
-            <p>Take a look at my <a href="files/cv.pdf" target="_blank">CV</a>, or scroll down to my <a href="#projects">Projects</a>.
+            <p align="center">
+            <a href="files/cv.pdf" target="_blank" class="btn btn-primary" role="button">Download my Resume</a>
             </p>
           </div>
         </div>
@@ -92,50 +91,200 @@
           <div class="col-lg-8 mx-auto">
             <h2>Projects &amp; Publications</h2>
             <br>
+            <br id="instabp">
+            <div class="container" style="outline: dashed #495057">
+              <table style="display: table; width: 100%">
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 80%;">
+                  <h4>InstaBP - Blood Pressure Monitoring App</h4>
+                  </td>
+                  <td align="right" style="width: 20%;">
+                  <a href="https://play.google.com/store/apps/details?id=com.srib.atl.instabp.bpcheck&hl=en_US&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="blank"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width=200px></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                    Samsung R&amp;D Institute India - Bangalore (May 2017 - Aug 2018)
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 80%">
+                  1 publication in IEEE EMBC 2018:
+                  </td>
+                  <td align="right" style="width: 20%">
+                  <img src="files/ieee-logo.png" alt="IEEE Logo" width="200px">
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td colspan="2">
+                  <ul>
+                  <li><a href="" target="_blank"><b>InstaBP : Cuffless Blood Pressure Monitoring on Smartphone using Single PPG Sensor</b></a><br> <small><b>Jishnu Dey</b>, Aman Gaurav, Vijay Narayan Tiwari<br>40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) 2018<br>(to be published in IEEE Xplore soon)</small></li>
+                  </ul>
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 80%;">
+                    Recipient of <a href="https://app-nasscom.jiveon.com/docs/DOC-1848" target="blank"><b>NASCCOM AI Game Changer Awards 2018</b></a>.
+                  </td>
+                  <td align="right" style="width: 20%;">
+                    <img src="files/nasscom-logo.jpg" alt="NASSCOM Logo" width=200px>
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+              </table>
+            </div>
             <br>
-            <h4>Publications</h4>
             <br>
-            <ul>
-            <li>
-              <p><a href="http://ieeexplore.ieee.org/document/8037345/" target="_blank"><b>Wearable PPG sensor based alertness scoring system</b></a><br> <small><b>Jishnu Dey</b>, Tanmoy Bhowmik, Saswata Sahoo, Vijay Narayan Tiwari<br>39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) 2017</small>
-              </p>
-            </li>
-            <li>
-              <p><a href="http://ieeexplore.ieee.org/document/8036774/" target="_blank"><b>A novel method for accurate estimation of HRV from smartwatch PPG signals</b></a><br>
-                <small>Tanmoy Bhowmik, <b>Jishnu Dey</b>, Vijay Narayan Tiwari<br>39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) 2017</small>
-              </p>
-            </li>
-            </ul>
+            <hr class="style-one">
             <br>
-            <hr>
+            <br id="alertness">
+            <div class="container" style="outline: dashed #495057">
+              <table style="display: table; width: 100%">
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  <h4>Alertness Indicator</h4>
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  Samsung R&amp;D Institute India - Bangalore (Jun 2016 - Apr 2016)
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 80%">
+                  2 publications in IEEE EMBC 2017:
+                  </td>
+                  <td align="right" style="width: 20%">
+                  <img src="files/ieee-logo.png" alt="IEEE Logo" width="200px">
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td colspan="2" align="left" style="width: 100%;">
+                  <ul>
+                  <li><a href="http://ieeexplore.ieee.org/document/8037345/" target="_blank"><b>Wearable PPG sensor based alertness scoring system</b></a><br> <small><b>Jishnu Dey</b>, Tanmoy Bhowmik, Saswata Sahoo, Vijay Narayan Tiwari<br>
+                  39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) 2017</small></li>
+                  </ul>
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td colspan="2" align="left" style="width: 100%;">
+                  <ul>
+                  <li><a href="http://ieeexplore.ieee.org/document/8036774/" target="_blank"><b>A novel method for accurate estimation of HRV from smartwatch PPG signals</b></a><br><small>Tanmoy Bhowmik, <b>Jishnu Dey</b>, Vijay Narayan Tiwari<br>39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) 2017</small></li>
+                  </ul>
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+              </table>
+            </div>
             <br>
-            <h4>Projects</h4>
             <br>
-            <ul>
-            <li><p><b>Bachelor's Thesis - Distributed Deployment of Wireless sensor networks</b>&emsp;[<a href="files/Jishnu_Thesis.pdf" target="_blank">Thesis</a>]<br><small>Advised by Prof. Rajarshi Roy <br><p><b>Problem Statement -</b> To achieve specific coverage tasks while maintaining connectivity for sensor networks with limited sensing and communication radii.</p>
-              <ul>
-              <li> <b>Maximize area coverage -</b> Individual sensor targets are unknown. Formulated the problem into a distributed optimization problem based on a global potential function, such that each sensor minimizing its individual cost function results in minimization of the global potential function, which ensures coverage while maintaining connectivity.</li>
-              <li> <b>Maximize target coverage -</b> Individual sensor targets are known. Applied a clustering method to allocate sensors followed by a constrained greedy approach. Even though the sensors are self interested in coverage, the constraint binds them into maintaining connectivity.</li>
-              </li></ul>
-            </small></p></li>
-            <li><p><b>Summer Internship - Heart Rate Estimation from Noisy Photoplethysmographic sensors</b><br><small>Samsung R&amp;D Institute India Bangalore<br><p><b>Problem Statement -</b> To measure the heart rate using photoplethysmography of the wrist during intense physical activities. [Photoplethysmography allows to measure blood volumne changes non-invasively by illuminating the skin, and measuring the reflected/transmitted light]</p>
-              <ul>
-              <li>Designed a recurvise least squares filter using the accelerometer data as a proxy for motion to determine the noise component in the photoplethysmography signal. Thereafter, an adaptive autocorrelation technique was used to determine the heart rate.</li>
-              <li>Tested against the TROIKA Database of IEEE Signal Processing Cup 2015. Estimated heart rate accurately within a tight bound over a wide range of heart rate values.</li>
-              </li></ul>
-            </small></p></li>
-            <li><p><b>Summer Internship - Modeling and Simulation of interaction between Nanopropellers</b><br><small>Advised by Prof. Ambarish Ghosh, IISc Bangalore<br><p><b>Problem Statement -</b> To simulate the interaction between nanopropellers and demonstrate the process of synchronization.</p>
-              <ul>
-              <li> Formulated the interaction between nanopropellers as a mutual potential function that was determined by the internal as well as the external forces on the system.</li>
-              <li> Simulated the system on MATLAB and observed trends that were in line with the experimental observations.</li>
-              </li></ul>
-            </small></p></li>
+            <hr class="style-one">
+            <br>
+            <br id="btp">
+            <div class="container" style="outline: dashed #495057">
+              <table style="display: table; width: 100%">
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  <h4>Distributed Deployment of Wireless sensor networks</h4>
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  <a href="files/Jishnu_Thesis.pdf" target="_blank"><b>Bachelor's Thesis</b></a>, IIT Kharagpur (August 2015 - May 2016) 
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                    Advised by <a href="http://www.iitkgp.ac.in/department/EC/faculty/ec-royr" target="_blank"><b>Prof. Rajarshi Roy</b></a>.
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  Achieved specific coverage tasks while maintaining connectivity for sensor networks with limited sensing and peer-to-peer communication radii using distributed optimization methods.
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+              </table>
+            </div>
+            <br>
+            <br>
+            <hr class="style-one">
+            <br>
+            <br id="samsung">
+            <div class="container" style="outline: dashed #495057">
+              <table style="display: table; width: 100%">
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  <h4>Robust Heart Rate Estimation for Gear devices</h4>
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  Summer Internship, Samsung R&amp;D Institute India - Bangalore (May 2015 - Jul 2015) 
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  Estiamted the heart rate using photoplethysmography of the wrist through Galaxy Gear devices during intense physical activities. [Photoplethysmography allows to measure blood volumne changes non-invasively by illuminating the skin, and measuring the reflected/transmitted light.]
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+              </table>
+            </div>
+            <br>
+            <br>
+            <hr class="style-one">
+            <br>
+            <br id="iisc">
+            <div class="container" style="outline: dashed #495057">
+              <table style="display: table; width: 100%">
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  <h4>Modeling and Simulation of interaction between Nanopropellers</h4>
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                  Summer Internship, Indian Institute of Science, Bangalore (May 2014 - Jul 2014) 
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                    Advised by <a href="http://www.cense.iisc.ac.in/ambarish-ghosh" target="_blank"><b>Prof. Ambarish Ghosh</b></a>.
+                  </td>
+                  </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                  <td align="left" style="width: 100%;">
+                    Performed a MATLAB simulation of the interaction between nanopropellers and demonstrated the process of mutual synchronization.
+                  </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+              </table>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="bg-cream">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -146,16 +295,19 @@
             <br>
             <table style="display: table; width: 100%">
               <tr>
-              <td style="display: table-cell; width: 25%">
-                <a href="mailto:jishnudey.kgp@gmail.com"><img src="files/gmail-logo.png" alt="GMAil" height="48px" /></a>
+              <td style="display: table-cell; width: 20%">
+                <a href="mailto:jishnudey.kgp@gmail.com"><img src="files/gmail-logo.png" alt="GMail" height="48px" /></a>
               </td>
-              <td style="display: table-cell; width: 25%">
+              <td style="display: table-cell; width: 20%">
+                <a href="mailto:jdey2@illinois.edu" target="_blank"><img src="files/illinois-logo.png" alt="Illinois Webmail" height="48px" /></a> 
+              </td>
+              <td style="display: table-cell; width: 20%">
                 <a href="https://www.linkedin.com/in/jishnu-dey-6b9b2b57/" target="_blank"><img src="files/linkedin-logo.png" alt="LinkedIn" height="48px" /></a>
               </td>
-              <td style="display: table-cell; width: 25%">
+              <td style="display: table-cell; width: 20%">
                 <a href="https://github.com/jishnu-d" target="_blank"><img src="files/github-logo.png" alt="GitHub" height="48px" /></a> 
               </td>
-              <td style="display: table-cell; width: 25%">
+              <td style="display: table-cell; width: 20%">
                 <a href="https://www.researchgate.net/profile/Jishnu_Dey3" target="_blank"><img src="files/researchgate-logo.png" alt="ResearchGate" height="48px" /></a> 
               </td>
               </tr>
@@ -168,13 +320,15 @@
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-      <div class="container">
+      <div class="container" align="left">
         <p class="m-0 text-white" style="float: left; display: inline;">Copyright &copy; Jishnu Dey
         <br>Page maintained at <a href="https://github.com/jishnu-d/jishnu-d.github.io" style="color: #cccccc">GitHub</a>
         </p>
       </div>
-      <div class="container">
-        <p class="m-0 text-white" style="float: right; display: inline;">Adapted from the Scrolling Nav Template</p>
+      <div class="container" align="right">
+        <p class="m-0 text-white" style="float: right; display: inline;">Adapted from the Scrolling Nav Template
+          <br>Last updated on Sep 03, 2018
+        </p>
       </div>
       <br>
       <!-- /.container -->

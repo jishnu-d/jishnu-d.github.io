@@ -13,12 +13,105 @@
 
 .landing-content {
 		border-radius: 50%;
-		width: 40%;
+		width: 50%;
 	}
 
 a {
-	color: #0000CD;
+	color: #495057;
 }
+
+a:hover {
+  color: #495057;
+}
+
+.bg-cream {
+  background-color: #fcfcfc !important;
+}
+
+.style-one { 
+	border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+ .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #495057;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+ .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #868e96;
+  text-align: inherit;
+  white-space: nowrap;
+  background: none;
+  background-color: #495057;
+  border: 0;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #495057;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #495057;
+  border-color: #616269;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #495057;
+  border-color: #616269;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(123, 123, 251235, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #495057;
+  border-color: #616269;
+}
+
+.btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #495057;
+  border-color: #616269;
+  box-shadow: 0 0 0 0.2rem rgba(123, 123, 251235, 0.5);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #495057;
+}
+
 
 @media screen and (max-width: 500px) {
     .table, .table-row {
