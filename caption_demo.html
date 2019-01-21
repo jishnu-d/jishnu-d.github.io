@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Image Captioning Demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Jishnu Dey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+        </div>
+      </div>
+    </nav>
+
+    <script src="js/readURL.js"></script>
+    <header class="bg-primary">
+        <table style="display: table; width: 100%">
+            <tr>
+                <td align="right" style="width: 50%" valign="top">
+                    <div class="container " align="center">
+                        <div>
+                        <form id="urlform" align="center">
+                            <h3>Enter an Image URL:</h3><br>
+                            <input type="text" name="url" autocomplete="off" id="urlbox" style="width: 300px;"><br>
+                        </form>
+                        </div>
+                        <br>
+                        <div>
+                        <button class="button" id="submit">Submit</button>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="vl"></div>
+                </td>
+                <td align="left" style="width: 50%" valign="top">
+                    <div class="container" align="center">
+                        <h3>Upload a new Image:</h3><br>
+                        <input type='file' autocomplete="off" onchange="readURL(this);" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        
+        <br>
+        <hr class="style-one">
+        <br>
+        <div class="container text-white" align="center">
+            <img id="blah" src="#" alt="Invalid image" class="widthSet" />
+        </div>
+        <br>
+        <table style="display: table; width: 100%">
+            <tr>
+                <td align="right" style="width: 35%">
+                <button class="button" id="gen_cap">Generate Caption</button>
+                </td>
+                <td style="width: 1%"></td>
+                <td align="left" style="width: 60%">
+                <h5 id="caption"></h5>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container" align="left">
+        <p class="m-0 text-white" style="float: left; display: inline;">Copyright &copy; Jishnu Dey
+        <br>Page maintained at <a href="https://github.com/jishnu-d/jishnu-d.github.io" style="color: #cccccc">GitHub</a>
+        </p>
+      </div>
+      <div class="container" align="right">
+        <p class="m-0 text-white" style="float: right; display: inline;">Adapted from the Scrolling Nav Template
+          <br>Last updated on Jan 20, 2019
+        </p>
+      </div>
+      <br>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+
+  </body>
+
+</html>
