@@ -8,6 +8,10 @@ function readURL(input) {
         };
 
         reader.readAsDataURL(input.files[0]);
+
+        $('#gen_cap').show();
+        $('#gen_cap')
+            .attr('href', "http://34.73.18.246/infer?url=" + $('#blah').attr('src'));
     }
 }
 
